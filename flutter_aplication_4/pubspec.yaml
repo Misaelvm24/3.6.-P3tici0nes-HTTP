@@ -1,0 +1,22 @@
+name: flutter_application_3
+description: "Un nuevo proyecto de Flutter."
+publish_to: 'none'  # Indica que el proyecto no se publicará
+version: 1.0.0+1  # Versión de la aplicación
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'  # Rango de versiones compatibles del SDK de Dart
+
+dependencies:  # Asegúrate de que esta línea esté bien indentada y sin errores
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.1  # Paquete para solicitudes HTTP
+
+dev_dependencies:  # Asegúrate de que esta línea esté bien indentada
+  flutter_test:
+    sdk: flutter  # Paquete para pruebas de Flutter
+  flutter_lints: ^3.0.0  # Paquete para reglas de linting de Flutter
+
+flutter:  # Sección para configuraciones específicas de Flutter
+  uses-material-design: true  # Habilita el diseño Material
+  
